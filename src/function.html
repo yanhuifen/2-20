@@ -9,13 +9,13 @@
 </head>
 
 <body>
-    数组
+    回调函数
 </body>
 <script src="js/libs/require.js"></script>
 <script>
     require(['./main'], function() {
-        require(['page/index'], function(array) {
-            array();
+        require(['page/function'], function(fn) {
+            fn();
         })
     })
 </script>
